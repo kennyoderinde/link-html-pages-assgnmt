@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+  }
+
+.container-bg{
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(238, 167, 15);
+    
+  }
+
+   .heading1{
+    margin-top: 0%;
+    color: white;
+    line-height: 5px;
+    
+    
+    
+  }
+  h1{
+    margin-left: 30%;
+    box-shadow: 2px black;
+    
+    letter-spacing: 2px;
+    font-weight: 800;
+  }
+  
+  h3{
+    margin-left: 35%;
+    box-shadow: 2px black;
+    font-size: 40px;
+
+   
+  }
+
+  .container-sectn{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-position: center;
+    margin-left: 5%;
+    padding: 30px;
+    border-style: double;
+    border-width: 12px;
+  
+    
+
+  }
+
+section{
+    width: 35%;
+    height: 25%;
+    background: linear-gradient(to right, rgba(252, 252, 246, 0.986), rgb(236, 207, 207));
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 1%;
+    margin-left: 90px;
+   
+    padding: 20px;
+    box-shadow: 5px 7px 19px 0px;
+}
+h6{
+  color: rgb(32, 8, 139);
+}
+
+p{
+ font-size: 14px;
+ font-style: normal; 
+ font-weight: 500; 
+ letter-spacing: 1px;
+}
+
+.user-detl{
+  margin-top: 0px;
+
+  
+}
+
+
+.user-detl li{
+  list-style: none;
+  display: flex;
+  color: rgb(32, 8, 139);
+  padding-right: 20px;
+  
+}
+
+.user-detl li p{
+  padding-right: 10px;
+  margin-left: 20px;
+  color: rgb(34, 34, 34);
+}
+
+.social-detl{
+  margin-right: 6%;
+  margin-left: 20px;
+}
+
+.social-detl img{
+  padding: 2px;
+  border-style: double;
+  border-width: 4px;
+}
+
+.social-detl a{
+  color: rgb(32, 8, 139);
+
+}
+
+
+.user-list{
+  margin-top: 0%;
+}
+  
+
+
+.form-list li{
+  list-style: none;
+}
+
+.form-list li label{
+  color: rgb(46,45,45);
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.form-list li input{
+  width: 200px;
+  height: 25px;
+  padding-left: 20px;
+  border-style: none;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 13px;
+  box-sizing: 2px 0px 2px 0px;
+}
+
+.gender{
+  margin-bottom: ;
+  margin: 20px;
+}
+
+.prog-langs #languages label{
+  font-size: 14px;
+}
