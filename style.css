@@ -18,7 +18,7 @@
     
   }
   h1{
-    margin-left: 30%;
+    margin-left: 15%;
     box-shadow: 2px black;
     
     letter-spacing: 2px;
@@ -26,7 +26,7 @@
   }
   
   h3{
-    margin-left: 35%;
+    margin-left: 20%;
     box-shadow: 2px black;
     font-size: 40px;
 
@@ -34,14 +34,15 @@
   }
 
   .container-sectn{
-    width: 80%;
+    width: 55%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background-position: center;
     margin-left: 5%;
-    padding: 30px;
+    padding: 5px;
     border-style: double;
     border-width: 12px;
   
@@ -50,12 +51,12 @@
   }
 
 section{
-    width: 35%;
+    width: 40%;
     height: 25%;
     background: linear-gradient(to right, rgba(252, 252, 246, 0.986), rgb(236, 207, 207));
     border-radius: 10px;
     margin-top: 30px;
-    margin-bottom: 1%;
+    margin-bottom: 10%;
     margin-left: 90px;
    
     padding: 20px;
@@ -72,11 +73,10 @@ p{
  letter-spacing: 1px;
 }
 
-.user-detl{
-  margin-top: 0px;
-
-  
-}
+/*.user-detl{
+  width: auto;
+ 
+}*/
 
 
 .user-detl li{
@@ -84,7 +84,7 @@ p{
   display: flex;
   color: rgb(32, 8, 139);
   padding-right: 20px;
-  
+
 }
 
 .user-detl li p{
@@ -93,10 +93,12 @@ p{
   color: rgb(34, 34, 34);
 }
 
-.social-detl{
+/*.social-detl{
+  width: auto;
   margin-right: 6%;
   margin-left: 20px;
-}
+  
+}*/
 
 .social-detl img{
   padding: 2px;
@@ -111,10 +113,15 @@ p{
 
 
 .user-list{
+  width: auto;
   margin-top: 0%;
 }
   
-
+.forms{
+  width: auto;
+  margin-top: -5%;
+  
+}
 
 .form-list li{
   list-style: none;
@@ -138,11 +145,20 @@ p{
   box-sizing: 2px 0px 2px 0px;
 }
 
-.gender{
-  margin-bottom: ;
-  margin: 20px;
-}
+/*.gender{
+  width: 40%;
+  margin-bottom: -30%;
+  margin-bottom: 10%;
+}*/
+/*.social-status{
+  width: auto;
+  margin-top: -10%;
+}*/
 
+.prog-langs{
+ width: auto;
+ margin-top: -10%;
+}
 .prog-langs #languages label{
   font-size: 14px;
 }
